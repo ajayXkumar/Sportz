@@ -1,0 +1,109 @@
+.back-ground{
+    margin: 0px;
+    background-color: rgb(0, 6, 15);
+    width: 100vw;
+    height: 120vh;
+    font-family: 'Electrolize', sans-serif;
+}
+@keyframes breathing {
+    0% {
+      width: 100px;
+      height: 100px;
+      box-shadow: 0px 0px 200px 200px rgb(255, 0, 60);
+    }
+    50% {
+      width: 120px;
+      height: 120px;
+      box-shadow: 0px 0px 250px 250px rgb(255, 0, 60);
+    }
+    100% {
+      width: 100px;
+      height: 100px;
+      box-shadow: 0px 0px 200px 200px rgb(255, 0, 60);
+    }
+  }
+  
+  .blurr {
+    width: 100px;
+    z-index: 2;
+    height: 100px;
+    background-color: rgb(255, 0, 60);
+    border-radius: 100px;
+    margin-left: 67%;
+    margin-top: 23%;
+    position: absolute;
+    transition-duration: 1s;
+    animation: breathing 4s infinite; /* Adjust the duration and iteration as needed */
+  }
+  
+
+.hero-image{
+    z-index: 2;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 4%;
+    height: 700px;
+    width: 350px;
+}
+
+.main-text{
+    width: 450px;
+    text-align: left;
+    color:white;
+    margin-left: 15%;
+    margin-top: 18%;
+    position: absolute;
+    z-index: 100;
+}
+
+.flash {
+    position: relative;
+    bottom: 189px;
+    right: 181px;
+    transform: rotate(110deg);
+    opacity: 0;
+  }
+
+  @keyframes breathe {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .hero-image:hover{
+    .flash {
+        position: relative;
+        bottom: 189px;
+        right: 181px;
+        transform: rotate(110deg);
+        animation: breathe .4s infinite;
+      }
+      
+  }
+
+  .events{
+    position: absolute;
+    display: flex;
+    margin-top: 45%;
+    color: rgb(255, 255, 255);
+    z-index: 4;
+    width: 100vw;
+    justify-content: space-evenly;
+    
+  }
+ 
+  .cod:hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px rgb(255, 0, 60);
+  }
+
+  
+  
+
+  
