@@ -90,19 +90,56 @@
   .events{
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 45%;
     color: rgb(255, 255, 255);
     z-index: 4;
     width: 100vw;
     justify-content: space-evenly;
+    backdrop-filter: blur(10px);
     
   }
- 
+ .cod{
+    margin-bottom: 10px;
+ }
   .cod:hover{
     border-radius: 10px;
     box-shadow: 0px 0px 4px 4px rgb(255, 0, 60);
   }
+  @media (max-width :450px) {
+    
+    .events{
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 150%;
 
+      color: rgb(255, 255, 255);
+      backdrop-filter: blur(10px);
+      z-index: 4;
+      width: 100vw;
+      
+    }
+    .hero-image{
+      z-index: 2;
+      position: absolute;
+      margin-left: 40px;
+      margin-top:4%;
+      height: 700px;
+      width: 350px;
+  }
+  .main-text{
+    width: 300px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-top: 40%;
+    position: absolute;
+    z-index: 100;
+}
+  }
+
+  
   
   
 

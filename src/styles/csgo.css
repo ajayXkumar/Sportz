@@ -1,11 +1,12 @@
 .mm{
-    margin: 0px;
-    background-color: black;
-    width: 100vw;
-    font-family: 'Electrolize', sans-serif;
+  margin: 0px;
+  background-color: rgb(0, 7, 16);
+  width: 100vw;
+  height: 120vh;
+  font-family: 'Electrolize', sans-serif;  
 }
 
-@keyframes breathing3 {
+@keyframes breathings{
     0% {
       width: 100px;
       height: 100px;
@@ -33,11 +34,11 @@
     margin-top: 23%;
     position: absolute;
     transition-duration: 1s;
-    animation: breathing3 4s infinite;
+    animation: breathings 4s infinite;
   }
   
 
-.hero-image3{
+.hero-images{
     z-index: 2;
     position: absolute;
     margin-left: 45%;
@@ -46,7 +47,7 @@
     width: 350px;
 }
 
-.main-text3{
+.main-texts{
     width: 450px;
     text-align: left;
     color:white;
@@ -56,7 +57,7 @@
     z-index: 100;
 }
 
-.flash3 {
+.flashs{
     position: relative;
     bottom: 189px;
     right: 181px;
@@ -64,7 +65,7 @@
     opacity: 0;
   }
 
-  @keyframes breathe {
+  @keyframes breathes {
     0% {
       opacity: 0%;
     }
@@ -76,34 +77,74 @@
     }
   }
 
-  .hero-image3:hover{
-    .flash3{
+  .hero-images:hover{
+    .flashs{
         position: relative;
         bottom: 189px;
         right: 181px;
         transform: rotate(127deg);
-        animation: breathe .4s infinite;
+        animation: breathes .4s infinite;
       }
       
   }
 
-  .events3{
+  .eventss{
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 45%;
     color: rgb(255, 255, 255);
     z-index: 4;
     width: 100vw;
     justify-content: space-evenly;
+    backdrop-filter: blur(10px);
     flex:wrap;
   }
  
-  .cod3:hover{
+  .cods{
+    width: 340px;
+    height: 200px;
+    border: 1px solid rgb(255, 115, 0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+  }
+  .cods:hover{
     border-radius: 10px;
     box-shadow: 0px 0px 4px 4px rgb(255, 115, 0);
   }
 
   
-  
+  @media (max-width :450px) {
+    
+    .eventss{
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 120%;
+      color: rgb(255, 255, 255);
+      backdrop-filter: blur(10px);
+      z-index: 4;
+      width: 100vw;
+      
+    }
+    .hero-images{
+      z-index: 2;
+      position: absolute;
+      margin-left: -30px;
+      margin-top:4%;
+      height: 700px;
+      width: 350px;
+  }
+  .main-texts{
+    width: 450px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-top: 40%;
+    position: absolute;
+    z-index: 100;
+}
+  }
 
   

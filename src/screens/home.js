@@ -14,13 +14,13 @@ const Home = () => {
       </div>
 
       <div className="main-text">
-        <p style={{fontSize:"50px", fontWeight:"bold",lineHeight:"2px"}}>Unlease The Beast</p>
+        <p style={{fontSize:"50px", fontWeight:"bold",lineHeight:"3rem"}}>Unlease The Beast</p>
         <p  style={{fontSize:"19px"}}>
           Elevate your gaming experience. Find and host esports events with
           ease. Your one-stop platform for esports excitement.
         </p>
       </div>
-      <div className="events">
+      <div className="events" >
            <div className="cod">
                   
            <Link to="/"> <img src="/card1.jpg" style={{width:"340px",borderRadius:'10px'}}/></Link>
