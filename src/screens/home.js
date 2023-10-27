@@ -21,8 +21,7 @@ const Home = () => {
         </p>
       </div>
       <div className="events" >
-           <div className="cod">
-                  
+           <div className="cod"> 
            <Link to="/"> <img src="/card1.jpg" style={{width:"340px",borderRadius:'10px'}}/></Link>
 
            </div>
