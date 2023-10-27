@@ -101,6 +101,10 @@
   }
  .cod{
     margin-bottom: 10px;
+    height:200px ;
+    border-radius: 8px;
+    overflow:hidden;
+    box-shadow: 2px 0px 4px 4px rgb(85, 0, 20);
  }
   .cod:hover{
     border-radius: 10px;
@@ -137,7 +141,22 @@
     position: absolute;
     z-index: 100;
 }
-  }
+}
+.title{
+  
+  position: absolute;
+  z-index: 4;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.769);
+  border-radius: 8px;
+  margin-top: 117px;
+  font-size: 40px;
+  width: 340px;
+  color: white;
+  padding: 4px 0px;
+  font-weight: bold;
+  margin-top: 145px;
+}
 
   
   

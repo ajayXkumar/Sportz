@@ -22,16 +22,17 @@ const Home = () => {
       </div>
       <div className="events" >
            <div className="cod"> 
-           <Link to="/"> <img src="/card1.jpg" style={{width:"340px",borderRadius:'10px'}}/></Link>
+           <Link to="/"> <p className="title">COD</p><img src="/main-hero.png" style={{width:"340px",borderRadius:'10px'}}/></Link>
 
            </div>
            <div className="cod">
-                 
-           <Link to="/csgo"> <img src="/card2.jpg" style={{width:"340px",borderRadius:'10px'}}/></Link>
+ 
+           <Link to="/csgo"> <p className="title">CS:GO</p><img src="/main-hero3.png" style={{width:"340px",borderRadius:'10px'}}/></Link>
+           
 
            </div>
            <div className="cod">
-          <Link to="/pubg"> <img src="/card3.jpg" style={{width:"340px",borderRadius:'10px'}}/></Link>
+          <Link to="/pubg"><p className="title">PUBG</p> <img src="/main-hero2.png" style={{width:"340px",borderRadius:'10px'}}/></Link>
            
            </div>
       </div>

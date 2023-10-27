@@ -148,7 +148,7 @@
 .point {
   position: absolute;
   z-index: 2;
-  opacity: 0.6;
+  opacity: 0.02;
   top: -140px;
   left: 270px;
 }

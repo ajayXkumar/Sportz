@@ -36,7 +36,7 @@ const Pubg = () => {
                 <img src="/main-hero2.png" style={{ height: "700px" }} />
                 <img src="/flash.png" className="flash2" style={{ height: "60px" }} />
             </div>
-            {/* <img src="/point.png" className="point" style={{ height: "1000px" }} /> */}
+            <img src="/point.png" className="point" style={{ height: "1000px" }} />
             <div className={gunfire}>
            <img src="/flash.png" className={fire} style={{ height: "60px" }} />
              <img onClick={handlefire} src="/snniper2.png" width="550px"></img>
